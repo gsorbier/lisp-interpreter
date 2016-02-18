@@ -67,7 +67,7 @@ vector<string> lex(string line)
 
 			start = curPosn + 1;
 		}
-		else if (data[curPosn] == '(' || data[curPosn] == ')' || data[curPosn] == '\'' || data[curPosn] == '+' || data[curPosn] == '-')
+		else if (data[curPosn] == '(' || data[curPosn] == ')' || data[curPosn] == '\'' || data[curPosn] == '+' || data[curPosn] == '-' || data[curPosn] == '*')
 		{
 			if (nChars > 1)
 			{
